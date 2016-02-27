@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="notifier jQuery Plugin" />
+<meta name="keywords" content="notifier,jquery,plugin,arun,thomas" />
+<meta name="author" content="Arun Thomas" />
+<meta name="alexaVerifyID" content="BpG8y2P8vrm_nrBOX09g26aB3lY"/>
+
+<link rel="stylesheet" type="text/css" href="css/notifier.css" />
+
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/notifier.js"></script>
+<title>notifier Demo</title>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71445628-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+$(document).ready(function() {
+	$('#demo3').click(function(){
+		$.notifier({
+			"message":"<a href='http://www.ajarunthomas.com/jquery/ajSlider' target='_blank'><img src='images/ajSlider.png' /></a>"
+		});
+	});
+	$('#demo1').click(function(){
+		$.notifier({
+			"message":"You clicked on the demo 1 button to bring this notification",
+			"color1":"rgb(0,0,150)",
+			"color2":"white"
+		});
+	});
+	$('#demo2').click(function(){
+		$.notifier({
+			"message":"This notification shows a text button which says 'close' to close this notification",
+			"closeButton":"text"
+		});
+	});
+	$('#demo4').click(function(){
+		$.notifier({
+			"message":"This notification appeared after 3 seconds",
+			"color1":"grey",
+			"color2":"white",
+			"delay":3
+		});
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="header">
+<a style="font-size:60px">notifier DEMO page</a>
+
+<div id="menudiv">
+<ul id="menu">
+	<li><a href="../index.html">HOME</a></li>
+    <li><a href="../docs.html">DOCUMENTATION</a></li>
+    <li><a href="../contact.html">CONTACT</a></li>
+</ul>
+</div>
+
+</div>
+
+
+<div id="content">
+
+<a id="demo1" class="button">Demo 1</a>
+<a id="demo2" class="button">Demo 2</a>
+<a id="demo3" class="button">Demo 3</a>
+<a id="demo4" class="button">Demo 4</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<p>
+<a>The first demo shows a notification with a blue theme</a><br><br>
+<a>The second demo shows a notification with a different close button</a><br><br>
+<a>The third demo shows a picture advertisement in the notification</a><br><br>
+<a>The fourth demo appears after 3 seconds from button click</a>
+</p>
+</div>
+
+<br><br><br>
+<div id="footer">
+<a>Copyright (c) 2016 Arun Thomas</a>
+</div>
+
+</body>
+</html>
