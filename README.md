@@ -43,7 +43,7 @@ $(document).ready(function() {
 });
 ```
 
-If you want to include an image in the notification, the insert the img tag in the message area.
+If you want to include an image in the notification, then insert the img tag in the message area.
 
 ####EXAMPLE : 
 ```
