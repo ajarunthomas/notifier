@@ -1,12 +1,7 @@
-@font-face{	
-    font-family: "Qumpellka";
-    src: url('fonts/Qumpellka.otf'),
-    url('fonts/Qumpellka.otf'); /* IE */
-}
 @font-face{
     font-family: "Montserrat";
-    src: url('fonts/Montserrat.otf'),
-    url('fonts/Montserrat.otf'); /* IE */
+    src: url('../fonts/Montserrat.otf'),
+    url('../fonts/Montserrat.otf'); /* IE */
 }
 
 body{
