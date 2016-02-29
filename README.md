@@ -30,7 +30,7 @@ $(window).load(function(){
 ```
 ###INSTRUCTIONS
 
-The above example will show the notification 3 seconds after the webpage has loaded. If you want to trigger the notification on button click, then include the initialization code inside the jquery click method. 
+The above example will show the notification 3 seconds after the webpage has loaded. If you want to trigger the notification on button click, then include the initialization code inside the click method. 
 
 ####EXAMPLE : 
 ```
