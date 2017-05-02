@@ -10,13 +10,13 @@ www.ajarunthomas.com
 <a download href="http://www.ajarunthomas.com/files/notifier.js" target="_blank" style="text-decoration:none">Download</a>
 <br><br>
 <a href="http://www.ajarunthomas.com/jquery/notifier/" target="_blank" style="text-decoration:none">Website</a>
-##USAGE
-###Step 1 : Include JS Files
+## USAGE
+### Step 1 : Include JS Files
 ```
 <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/notifier.js"></script>
 ```
-###Step 2 : Initialize jQuery
+### Step 2 : Initialize jQuery
 ```
 $(window).load(function(){	
 	$.notifier({	
@@ -28,11 +28,11 @@ $(window).load(function(){
 	});	
 });
 ```
-###INSTRUCTIONS
+### INSTRUCTIONS
 
 The above example will show the notification 3 seconds after the webpage has loaded. If you want to trigger the notification on button click, then include the initialization code inside the click method. 
 
-####EXAMPLE : 
+#### EXAMPLE : 
 ```
 $(document).ready(function() {	
   $('#myDiv').click(function(){	
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
 If you want to include an image in the notification, then insert the img tag in the message area.
 
-####EXAMPLE : 
+#### EXAMPLE : 
 ```
 $.notifier({	
   	"message":"<img src='images/picture.jpg' />"
